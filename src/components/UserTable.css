@@ -1,0 +1,108 @@
+.trip-stats-card {
+    background-color: white;
+    border-radius: 8px;
+    padding: 1.5rem;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+  }
+  
+  .card-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 1.5rem;
+    flex-wrap: wrap;
+    gap: 1rem;
+  }
+  
+  .card-header h2 {
+    margin: 0;
+    color: #2c3e50;
+    font-size: 1.25rem;
+  }
+  
+  .time-filter {
+    display: flex;
+    gap: 0.5rem;
+  }
+  
+  .time-filter button {
+    background-color: #f1f5f9;
+    border: none;
+    padding: 0.5rem 1rem;
+    border-radius: 4px;
+    font-size: 0.875rem;
+    cursor: pointer;
+    transition: all 0.3s;
+  }
+  
+  .time-filter button.active {
+    background-color: #3b82f6;
+    color: white;
+  }
+  
+  .stats-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+    gap: 1rem;
+    margin-bottom: 1.5rem;
+  }
+  
+  .stat-item {
+    text-align: center;
+  }
+  
+  .stat-item h3 {
+    font-size: 0.875rem;
+    color: #64748b;
+    margin-bottom: 0.5rem;
+    margin-top: 0;
+  }
+  
+  .stat-item p {
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: #334155;
+    margin: 0;
+  }
+  
+  .transport-breakdown h3 {
+    font-size: 1rem;
+    color: #334155;
+    margin-bottom: 1rem;
+    margin-top: 0;
+  }
+  
+  .transport-types-list {
+    display: flex;
+    flex-direction: column;
+    gap: 0.75rem;
+  }
+  
+  .transport-type-item {
+    display: flex;
+    flex-direction: column;
+    gap: 0.25rem;
+  }
+  
+  .transport-type {
+    font-weight: 500;
+    color: #334155;
+  }
+  
+  .transport-count {
+    font-size: 0.875rem;
+    color: #64748b;
+  }
+  
+  .progress-bar {
+    height: 6px;
+    background-color: #e2e8f0;
+    border-radius: 3px;
+    overflow: hidden;
+    margin-top: 0.25rem;
+  }
+  
+  .progress {
+    height: 100%;
+    background-color: #3b82f6;
+  }

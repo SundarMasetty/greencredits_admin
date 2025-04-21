@@ -1,0 +1,7 @@
+steps:
+- name: 'gcr.io/cloud-builders/docker'
+  script: |
+    docker build -t us-west2-docker.pkg.dev/$P/quickstart-docker-repo/admin-image:tag1 .
+  automapSubstitutions: true
+images:
+- 'us-west2-docker.pkg.dev/carbon-credit-admin/quickstart-docker-repo/admin-image:tag1'
